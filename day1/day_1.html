@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day1</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: 'Montserrat', sans-serif; padding: 0px 30px 0px 30px;">
+<body>
     <header>
-        <h2>HTML Learning</h2>
+        <h1>HTML Learning</h1>
         <nav>
-            <a href="#" style="text-decoration: none;">Home</a>&emsp;
-            <a href="#" style="text-decoration: none;">About Us</a>&emsp;
-            <a href="#" style="text-decoration: none;">Support</a>&emsp;
-            <a href="#" style="text-decoration: none;">Gallery</a>&emsp;
-            <a href="#" style="text-decoration: none;">Contact</a>
+            <a href="#" >Home</a>&emsp;
+            <a href="#">About Us</a>&emsp;
+            <a href="#">Support</a>&emsp;
+            <a href="#">Gallery</a>&emsp;
+            <a href="#">Contact</a>
         </nav>
         <hr>
         <font size="7">
@@ -48,10 +49,10 @@
                 <li>Laborum nulla sed consectetur repudiandae vitae</li>
                 <li>Odio placeat deserunt blanditiis</li>
             </ul>
-            <audio controls>
-                
+            <audio controls autoplay>
+                <source src="" alt="This is a demo audio">
             </audio>
-            <span style="display: inline-block; padding: 20px; margin-bottom: 20px; vertical-align: top;">
+            <span class="cont_audio">
                 Audio 1: Lorem ipsum dolor sit amet
             </span>
         </section>
@@ -73,18 +74,21 @@
                 <li>Quae dicta repellat molestias tempore obcaecati</li>
             </ol>
             <br>
-            <select name="drop" id="drop" style="width: 400px; height: 50px;">
-                <option value="drop">Architecto eligendi ea veniam modi laboriosam doloremque</option>
-            </select>
+            <label for="drop">
+                <select name="drop" id="drop" style="width: 400px; height: 50px;">
+                    <option value="drop">Architecto eligendi ea veniam modi laboriosam doloremque</option>
+                </select>
+            </label>
+            
             <!-- <h6>ariatur cumque voluptatibus necessitatibus quae nemo explicabvoluptas</h6> -->
             <p style="font-size:12px">ariatur cumque voluptatibus necessitatibus quae nemo </p>
             <p style="font-size:12px">explicabvoluptas</p>
         </section>
         <br>
         <section id="content4">
-            <h5>Heading: Image and text side by side - Price: <font color="red">€500.00 </font> €250.00</h5>
-            <img src="image 2.png" alt="this is an image" width="540" height="305">
-            <span style="display: inline-block; padding: 20px; margin-top: 120px; margin-bottom: 120px; vertical-align: top;">
+            <h5>Heading: Image and text side by side - Price: <span class="text-red">€500.00 </span> €250.00</h5>
+            <img src="image 2.png" alt="This is an demo image." width="540" height="305">
+            <span class="cont__cap">
                 Vokalia and Consonantia, there live the blind.
             </span>
         </section>
